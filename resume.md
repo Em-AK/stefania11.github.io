@@ -9,17 +9,12 @@ image:
 ---
 
 ### Experience
-*
-*
-
 
 ### Education
-
-
 
 ### Publications
 
 ### Languages
 
 ### Skills
-### Hobbies
+###  Hobbies
