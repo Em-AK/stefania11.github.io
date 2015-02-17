@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "Stefania's CreActivity"
 tags: [home]
 image:
