@@ -25,7 +25,7 @@ tools:
 # For external links add external: true
 links:
   - tittle: Whatever
-    url: /
+    url: /Whatever
   - title: Resume
     url: /resume
   - title: Research
