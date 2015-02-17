@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Recent Posts"
-tags: [Jekyll, theme, responsive, blog, template]
+title: "Stefania's CreActivity"
+tags: [home]
 image:
-  feature: typewriter.jpg
+  feature: tools_banner_bw.png
 ---

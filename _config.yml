@@ -25,13 +25,14 @@ tools:
 # For external links add external: true
 links:
   - title: Resume
-    url: /about
-  - title: Talks
-    url: /talks
+    url: /resume
   - title: Research
     url: /research
-  - title: Github
+  - title: Projects
     url: https://github.com/stefania11
+    external: true
+  - title: Talks
+    url: http://www.slideshare.net/drugastefania
     external: true
 
 
