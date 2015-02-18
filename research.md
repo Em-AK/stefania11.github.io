@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-hover
 permalink: /research/index.html
 title: Research
 tags: [research]
