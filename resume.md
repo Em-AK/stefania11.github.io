@@ -87,6 +87,7 @@ research project in France.
 
 ---
 ## Languages
+
 | Language  | Level  |
 | --- | --- |
 | Romanian | Native  |
