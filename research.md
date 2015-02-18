@@ -5,6 +5,7 @@ title: Research
 tags: [research]
 image:
   feature: "resume_banner_bw.png"
+  hover : "resume_banner.png"
 ---
 
 “Research is formalized curiosity. It is poking and prying with a purpose-
