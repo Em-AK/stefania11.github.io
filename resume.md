@@ -4,10 +4,11 @@ permalink: /resume/index.html
 title: Resume
 tags: [stefaniadruga, resume]
 image:
-  feature:  fractals_banner_bw.png
+  feature:  fractals_banner_bw.jpg
 ---
 ***
-## Experience
+Experience
+===
 
 * **HacKIDemia Founder** (*2012-present*)
 Three years ago I co-founded HacKIDemia, a global organization where
