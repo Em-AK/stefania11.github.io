@@ -11,5 +11,3 @@ image:
 ## Blog like a hacker or something like that
 
 This is year I decided to learn how to program and as part of that process I created a new website using Jekyll and Github Pages.
-
-![Test image alt](/img/electronics_banner.png)
