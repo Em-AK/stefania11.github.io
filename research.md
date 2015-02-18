@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: post-hover
 permalink: /research/index.html
 title: Research
 tags: [research]
 image:
   feature: "resume_banner_bw.png"
+  hover: "resume_banner.jpg"
 ---
 
 “Research is formalized curiosity. It is poking and prying with a purpose-
@@ -26,5 +27,5 @@ Zora Neale Hurston."
 Behaviour change workshop: “DIY Charms, Amulets and Totems: Liminal Rites with Arduino and OSHW(Open Source Hardware) supporting Health and Wellbeing.
 [Link to article](bit.ly/idc_behaviour)
 
-* M.A.Thesis:¨Politiques institutionelles de propriété intellectuelle et diffusion des resources éducative numériques¨(Institutional policies of intellectual property and distribution of digital educational materials)
+* M.A.Thesis:"Politiques institutionelles de propriété intellectuelle et diffusion des resources éducative numériques"(Institutional policies of intellectual property and distribution of digital educational materials)
 [Link to article](bit.ly/thesis-stefania)
