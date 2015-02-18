@@ -57,6 +57,12 @@ kramdown:
 sass:
     style: :compressed
 
+embedly:
+  api_key: dc6d6e8636ed45fa8325a25f0300b93b
+  slideshare:
+    color: $grey-medium
+    width: 500px
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 

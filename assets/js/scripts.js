@@ -45,3 +45,7 @@ $(function(){
         setTimeout(function(){ t.addClass('slider'); }, (i+1) * 330);
     });
 });
+
+$('img').each(function() {
+    $(this).attr( 'title', $(this).attr('alt') );  
+});

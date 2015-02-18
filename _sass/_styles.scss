@@ -277,7 +277,7 @@ header.site-header nav {
 
     .overlay {
         vertical-align: middle;
-        min-height: 360px;
+        min-height: 460px;
         height: 50vh;
         width: 100%;
         max-height: 800px;
@@ -291,26 +291,7 @@ header.site-header nav {
 
     .featured-image {
         vertical-align: middle;
-        min-height: 360px;
-        height: 50vh;
-        width: 100%;
-        max-height: 800px;
-        background-position: center center;
-        background-size: cover;
-        vertical-align: middle;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        position: relative;
-        top: 0;
-        z-index: -1;
-        img {
-            max-height: 800px;
-        }
-    }
-    .hover-image {
-        vertical-align: middle;
-        min-height: 360px;
+        min-height: 460px;
         height: 50vh;
         width: 100%;
         max-height: 800px;
@@ -328,6 +309,7 @@ header.site-header nav {
         }
     }
 
+    
     // Header Stuff
     header {
         margin: (2*$lh) 0 $lh 0;
