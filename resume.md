@@ -58,6 +58,7 @@ the final evaluation which showed that 80% of the teachers were using the new
 tools in their classrooms and 50% started coaching their colleagues.
 
 ---
+
 ## Education
 
 * **Research Associate**(2011-2012)
@@ -86,10 +87,11 @@ the French University of Limoges which allowed me to do a self-directed
 research project in France.
 
 ---
+
 ## Languages
 
 | Language  | Level  |
-| --- | --- |
+|  |  |
 | Romanian | Native  |
 | English      | Proficient |
 | French       | Proficient |
@@ -99,12 +101,14 @@ research project in France.
 | German      | Beginner |
 
 ---
+
 ## Professional Skills
 
 
 // have to complete
 
 ---
+
 ##  Hobbies
 * Dancing (Swing, Tango, Salsa, Hip-Hop)
 * Reading ([Reading List](https://www.goodreads.com/user/show/10667897-stefania))
