@@ -310,6 +310,9 @@ header.site-header nav {
 
         &:hover {
         background: url ({{ site.url }}/images/{{ page.image.hover }}) no-repeat;
+    }
+}
+    .hover-image {
         vertical-align: middle;
         min-height: 460px;
         height: 50vh;
@@ -327,8 +330,7 @@ header.site-header nav {
         img {
             max-height: 1280px;
         }
-    }
-}
+      }
 
 
     // Header Stuff
