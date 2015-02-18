@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Post and Feature Image
-description: "Features presentations and talks"
-category: talks
+permalink: /talks/index.html
 tags: [talks, presentations]
 image:
 feature: "talk_banner_bw.png"
