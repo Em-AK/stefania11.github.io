@@ -28,11 +28,8 @@ $(document).ready(function() {
 $(function(){
   $('<img>').attr('src',function(){
       var imgUrl = $('div.featured-image').css('background-image');
-      var imgUrl2 = $('div.hover-image').css('background-image');
       if (!imgUrl) {
         return;
-        if (!imgUrl:hover) {
-          return imgUrl2 ;
         }
       }
       imgUrl = imgUrl.substring(4, imgUrl.length-1);
