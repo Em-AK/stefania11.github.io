@@ -1,19 +1,23 @@
-{% if page.image.feature %}
-
 {% include head.html %}
+
+<style media="screen">
+  .featured-image {
+    background-image: url({{ site.url }}/images/{{ page.image.feature }})
+  }
+
+  .featured-image:hover {
+    background-image: url({{ site.url }}/images/{{ page.image.featureAlt }})
+  }
+</style>
 
 <section class="article">
 
-  <div class="overlay"></div>
-  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
+{% if page.image.feature %}
+  <div class="featured-image"></div>
 {% else %}
-
-{% include head-dark.html %}
-
-<section class="article pad-top">
-
+  <div class="overlay"></div>
+  <div class="featured-image" style="background-image: url({{ site.url }}/images/typewriter.jpg)"></div>
 {% endif %}
-
       <article class="wrap post">
         <header class="post-header">
           <hgroup>

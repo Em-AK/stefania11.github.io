@@ -6,11 +6,7 @@ tags: [intro, beginner, jekyll, tutorial]
 image:
   feature: "electronics_banner_bw.png"
 ---
-Read this in about {{ page.content | reading_time }}
 
 ## Blog like a hacker or something like that
 
 This is year I decided to learn how to program and as part of that process I created a new website using Jekyll and Github Pages.
-
-
-:turtle :spaceship
