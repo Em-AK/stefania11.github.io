@@ -17,16 +17,37 @@
       <article class="wrap post">
         <header class="post-header">
           <hgroup>
-            <h1>{{ page.title }}</h1>
+            <h2>{{ page.title }}</h2>
             <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
           </hgroup>
         </header>
 
+        <style hgroup="tittle">
+        h2 > a:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #000;
+          visibility: hidden;
+          -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          transition: all 0.3s ease-in-out 0s;
+        }
+        h2 > a:hover:before {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+        }
+        </style>
         <div id='bump'>
                       {% for post in site.posts %}
                       <li>
                         <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                            <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+                            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
                             <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
                             <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
                         </div>
