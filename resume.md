@@ -8,6 +8,7 @@ image:
 ---
 ***
 ## Experience
+
 * **HacKIDemia Founder** (*2012-present*)
 Three years ago I co-founded HacKIDemia, a global organization where
 we design and organize hands-on STEM workshops for children (7-16).
@@ -58,6 +59,7 @@ tools in their classrooms and 50% started coaching their colleagues.
 
 ***
 ## Education
+
 * **Research Associate**(*2011-2012*)
 INTERDISCIPLINARY RESEARCH CENTER PARIS-DESCARTES
 Participated as a reasearch associate in a project that applied machine
@@ -85,9 +87,10 @@ research project in France.
 
 ***
 ## Languages
+
 | Language | Level |
---- | ---
- Romanian | Native |
+| --- | --- |
+| Romanian | Native |
 | English      | Proficient |
 | French       | Proficient |
 | Spanish     | Fluent |
@@ -103,6 +106,7 @@ research project in France.
 
 ***
 ##  Hobbies
+
 * Dancing (Swing, Tango, Salsa, Hip-Hop)
 * Reading ([Reading List](https://www.goodreads.com/user/show/10667897-stefania))
 * Climbing
