@@ -1,4 +1,4 @@
-title:            Stefania's CreActivity
+title:            
 tagline:          Sketches of a learning arhitect
 description:      Personal website of Stefania Druga where I talk about learning experiences, projects and code
 canonical: https://stefania11.github.io
@@ -56,7 +56,7 @@ kramdown:
 sass:
     style: :compressed
 
-    
+
 embedly:
   api_key: dc6d6e8636ed45fa8325a25f0300b93b
   slideshare:

@@ -17,13 +17,13 @@
       <article class="wrap post">
         <header class="post-header">
           <hgroup>
-            <h2>{{ page.title }}</h2>
+            <h1>{{ page.title }}</h1>
             <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
           </hgroup>
         </header>
 
-        <style hgroup="tittle">
-        h2 > a:before {
+        <style media="screen">
+        h1 > a:before {
           content: "";
           position: absolute;
           width: 100%;
@@ -37,7 +37,7 @@
           -webkit-transition: all 0.3s ease-in-out 0s;
           transition: all 0.3s ease-in-out 0s;
         }
-        h2 > a:hover:before {
+        h1 > a:hover:before {
           visibility: visible;
           -webkit-transform: scaleX(1);
           transform: scaleX(1);
@@ -47,7 +47,7 @@
                       {% for post in site.posts %}
                       <li>
                         <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+                            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
                             <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
                             <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
                         </div>

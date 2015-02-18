@@ -1,6 +1,6 @@
 ---
 layout: home
-title:
+title: Stefania's CreActivity
 image:
-  feature: tools_banner.png
+  feature: electronics_banner.png
 ---
