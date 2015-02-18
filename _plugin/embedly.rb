@@ -3,6 +3,8 @@ require 'net/https'
 require 'uri'
 require 'json'
 require 'domainatrix'
+#{% embedly  http://www.slideshare.net/drugastefania/slideshelf %}
+
 
 module Jekyll
   class Embedly < Liquid::Tag

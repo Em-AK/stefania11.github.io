@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Stefania's CreActivity"
+title:
 image:
-  feature: tools_banner_bw.png
+  feature: tools_banner.png
 ---

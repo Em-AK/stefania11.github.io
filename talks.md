@@ -12,4 +12,4 @@ image:
 
 ##Afrimakers presentation
 
-<iframe src="http://www.slideshare.net/drugastefania/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+<iframe src="http://www.slideshare.net/drugastefania/slideshelf" width="515px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"; style="border:1px solid #666CCC" ></iframe>
