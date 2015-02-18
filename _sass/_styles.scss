@@ -277,7 +277,7 @@ header.site-header nav {
 
     .overlay {
         vertical-align: middle;
-        min-height: 360px;
+        min-height: 460px;
         height: 50vh;
         width: 100%;
         max-height: 800px;
@@ -291,7 +291,7 @@ header.site-header nav {
 
     .featured-image {
         vertical-align: middle;
-        min-height: 360px;
+        min-height: 460px;
         height: 50vh;
         width: 100%;
         max-height: 800px;
@@ -308,10 +308,10 @@ header.site-header nav {
             max-height: 1280px;
         }
 
-    .hover-image {
         &:hover {
+        background: url ({{ site.url }}/images/{{ page.image.hover }}) no-repeat;
         vertical-align: middle;
-        min-height: 360px;
+        min-height: 460px;
         height: 50vh;
         width: 100%;
         max-height: 800px;
