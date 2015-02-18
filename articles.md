@@ -1,11 +1,13 @@
 ---
-layout: post
-permalink: /articles/index.html
+layout: post-hover
+permalink: /blog/index.html
 title: "Letters from a curious mind"
 tags: [blog, graphic design]
 image:
   feature: "electronics_banner_bw.png"
 ---
+>I didn't have time to write you a short letter so I wrote you a long one - Romanian poet 
+
 {% for post in site.posts %}
 <li>
   <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">

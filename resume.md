@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post-hover
 permalink: /resume/index.html
 title: Resume
 tags: [stefaniadruga, resume]

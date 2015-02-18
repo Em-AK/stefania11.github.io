@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-hover
 permalink: /research/index.html
 title: Research
 tags: [research]
@@ -8,11 +8,11 @@ image:
   hover: "resume_banner.jpg"
 ---
 
-“Research is formalized curiosity. It is poking and prying with a purpose-
+>“Research is formalized curiosity. It is poking and prying with a purpose-
 Zora Neale Hurston."
 ---
 
-##List of publications
+## List of publications
 
 * SIGRAPH 2014 Shenzen, Designing Tools For Crafting Interactive Artifacts Workshop: “Open Source Hardware (OSHW) supporting Interaction between Traditional Crafts and Emergent Science: Wayang Kulit over Microfluidic Interfaces ”
 [Link to article](http://dl.acm.org/citation.cfm?id=2668955)
