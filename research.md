@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: /research/index.html
 title: Research
 tags: [research]
