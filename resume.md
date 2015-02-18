@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: page
 permalink: /resume/index.html
 title: Resume
 tags: [stefaniadruga, resume]
 image:
   feature:  fractals_banner_bw.jpg
 ---
-# Experience
+## Experience
 ***
 
 * **HacKIDemia Founder** (2012-present)
@@ -57,8 +57,9 @@ communication technology during a 4 months seminar. I devised and executed
 the final evaluation which showed that 80% of the teachers were using the new
 tools in their classrooms and 50% started coaching their colleagues.
 
-***
+---
 ## Education
+***
 
 * **Research Associate**(2011-2012)
 INTERDISCIPLINARY RESEARCH CENTER PARIS-DESCARTES
@@ -84,26 +85,30 @@ several national and international events such as “Semaine de la mobilité”
 (Mobility week). I also created an agreement between my university and
 the French University of Limoges which allowed me to do a self-directed
 research project in France.
+
+---
 ## Languages
 ***
+| Language  | Level  |
+| --- | --- |
+| Romanian | Native  |
+| English      | Proficient |
+| French       | Proficient |
+| Spanish     | Fluent |
+| Portugues  | Fluent |
+| Italian          | Beginner |
+| German      | Beginner |
 
-    | Language  | Level  |
-    | --- | --- |
-    | Romanian | Native  |
-    | English      | Proficient |
-    | French       | Proficient |
-    | Spanish     | Fluent |
-    | Portugues  | Fluent |
-    | Italian          | Beginner |
-    | German      | Beginner |
+---
 ## Professional Skills
 ***
 
 
 // have to complete
+
+---
 ##  Hobbies
 ***
-
 * Dancing (Swing, Tango, Salsa, Hip-Hop)
 * Reading ([Reading List](https://www.goodreads.com/user/show/10667897-stefania))
 * Climbing

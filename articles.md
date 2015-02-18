@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: /articles/index.html
 title: "Letters from a curious mind"
 tags: [blog, graphic design]
