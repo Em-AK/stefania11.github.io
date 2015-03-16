@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang= "en"> 
+  <head>
+    <meta charset=“utf-8”>
+    <title> Stef's page</title>
+    <link rel="stylesheet" type="text/css" href="application.css">
+    <script type="text/javascript">
+       alert('Hello World!');
+    </script>
+  </head>
+  
+  <body>
+    <!-- This is my index page for HTML lesson from team treehouse -->
+
+    <h1>This h1 tag</h1>
+    <h2>This is h2 tag</h2><br>
+    <h2 id=demo>Demo section</h2>
+    <a href="my_directory/another_page.html">Another page</a><br>
+    <a href="#robot_image">Inserted image</a><br>
+    <a href="#embeded_obj">Embeded video</a><br>
+    <a href="#local_iframe">Local iframe</a><br>
+    <a href="#table">Table</a><br>
+    <a href="#form">Form</a>
+  
+    <header><h2>Text</h2></header>
+    <p>
+      <em>Loremipsum </em> Loremipsum Loremipsum Loremipsum
+      Loremipsum Loremipsum Loremipsum Loremipsum
+      Loremipsum Loremipsum Loremipsum Loremipsum
+      Loremipsum Loremipsum Loremipsum Loremipsum 
+    </p>
+
+    <hr></hr>
+    
+    <p>
+    <strong>Loremipsum</strong>  Loremipsum Loremipsum Loremipsum
+    Loremipsum Loremipsum Loremipsum Loremipsum
+    Loremipsum Loremipsum Loremipsum Loremipsum
+    Loremipsum Loremipsum Loremipsum Loremipsum 
+  </p>
+  
+  <blockquote cite="http://example.com/story.html">
+    <p>
+      The fox jumped blabla 
+    </p>
+  </blockquote>
+
+  <p>
+    A wise man once said <q cite="http://Descartes.com/example.html"> I think therefore I am </q>
+  </p>
+  
+  <p>When we use the <code> drive()</code> function we can move the <code>vehicle</code> object</p>
+
+  <pre>
+    <code>
+      if (!foo) {
+        bar = 3;
+      }
+    </code>
+  </pre>
+  
+  <p>
+    This is the first line of the poem.<br>
+    This is the second line
+  </p>
+  
+  <p>I know how to use 
+    <abbr title="self-contained underwatter apparatus">SCUBA</abbr> 
+    gear 
+  </p>
+  
+  <address>
+    Stefania Druga<br> 
+    Magic Road<br>
+    Magic City
+  </address>
+  
+  <p>My favorite book is <cite>The first foundation</cite> by Isaac Asimov</p>
+  <p>superlonglonglonglonglonglonglonglonglonglonglonglonglink<wbr>here.com</p>
+
+  <header><h2>Lists</h2></header>
+  <ol = ordered_list>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ol>
+
+  <ul = unordered_list>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <ol>
+      <li>test item</li>
+      <ul>
+        <li>item nested twice</li>
+      </ul>
+    </ol>
+  </ul>
+
+  <dl>
+    <dt lang="en-US">Video pros</dt>
+    <dt lang="en-UK">Video proffessionals</dt>
+    <dd>Jon</dd>
+    <dt>Teachers</dt>
+    <dd>Michael</dd>
+    <dd>Sue</dd>
+  </dl>
+
+  <header><h2>Links</h2></header>
+  <a href="#some_text" id="my_link">My internal link</a><br>
+  <a href="http://example.com">My external link</a>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <p id="some_text">Anchor takes us here</p>
+  <a href="#my_link">Go back</a><br>
+  <a href="my_directory/another_page.html">Another page</a>
+
+  <header><h2>Images</h2></header>
+  <p>Here is a robot</p>
+  <img src= "my_images/Logo_Robot_Hackidemia.png" alt="Robot logo Hackidemia" height="500" width="500" id="robot_image">
+  <p>Isn't he cute?</p>
+  <a href="#demo">Go Back to Demo</a>
+
+  <head><h2>Embeded objects</h2></head>
+    <iframe width="480" height="360" src="https://www.youtube.com/embed/_OBlgSz8sSM" frameborder="0" allowfullscreen id="embeded_obj">
+    </iframe><br>
+    <a href="#demo">Go Back to Demo</a>
+
+    <p>Here is index.html</p>
+    <iframe width="300" height="300" src="iframe_page.html" id="local_iframe"></iframe><br>
+    <a href="#demo">Go back to demo</a>
+
+  <header><h2>Tables</h2></header>
+
+    <table border="1" cellpadding="2" cellspacing="2" id="table">
+      <thead>
+        <tr>
+          <th>These are <br> my Favorite Fruits</th>
+          <th valign="top">Vegetables</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="2" align="Center" >Thanks for reading</td>
+        </tr>    
+      </tfoot>
+      <tr>
+        <td>Oranges</td>
+        <td>Brocoli</td>
+      </tr>
+      <tr>
+        <td>Apples</td>
+        <td>Potatoes</td>
+      </tr>
+        <td>Strawberries</td>
+        <td>Coliflower</td>
+      </tr>
+    </table><br>
+    <a href="#demo">Go back to demo</a>
+  <header><h2>Tables</h2></header>
+  <form action="#" method="POST" name="my_form" id="form">
+    <fieldset>
+      <legend> Important information</legend>
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username"> <br>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password"> <br>
+      <input type="radio" name="gender" value="Female">Female<br>
+      <input type="radio" name="gender" value="Male">Male<br>
+      <input type="checkbox" name="subscribe" value="newsletter">Subscribe to newsletter<br>
+    </fieldset>
+     <fieldset>
+      <legend> Optional information</legend>
+      <label for="essay">We would like to know more about you.<br>Write a short essay about yourself.<br>
+      </label>
+      <textarea name="essay" rows="10" cols="30" id="essay"></textarea> <br>
+      <label for="continents">Where are you from?</label><br>     
+        <select name="continents" id="continents">
+          <optgroup label="Americas">
+            <option>South America</option>
+            <option>North America</option>
+          </optgroup>
+          <optgroup label="Eurasia">
+            <option>Europe</option>
+            <option>Asia</option>
+          </optgroup>      
+          <option>Australia</option>
+          <option>Africa</option>
+          <option>Antarctica</option>
+        </select>
+      </fieldset>
+    <input type="submit" value="Submit"><br>
+
+  </form><br>
+  <a href="#demo">Go back to demo</a>
+
+  </body>
+</html>
