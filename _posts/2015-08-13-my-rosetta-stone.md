@@ -1,6 +1,13 @@
 ---
-published: true
+layout: post-hover
+title: How to program the cosmos
+description: "one api at a time (first blog from my coding adventures at Flatiron School)"
+category: articles
+tags: [cosmos, api, cli, flatironschool]
+image:
+  feature: "electronics_banner_bw.png"
 ---
+
 
 ## How to program the cosmos..
 ### ...one api at a time (first blog from my coding adventures at Flatiron School) 
