@@ -5,7 +5,7 @@ description: "one api at a time (first blog from my coding adventures at Flatiro
 category: articles
 tags: [cosmos, api, cli, flatironschool]
 image:
-  feature: "electronics_banner_bw.png"
+  feature: "seahorse_nebula.jpg"
 ---
 
 
@@ -48,12 +48,8 @@ As we both love space we decided to play with the Nasa Api for Apod (Nasa pictur
 3. Build the CLI script 
 
 ###What we learned: 
-- Run bash commands from ruby
-- item
-- item
 
-
-run bash commands from ruby (
+run bash commands from ruby 
 store api keys secretly 
 use meta-programming to set our own instance variables 
 call a private method with and argument and a proc (Proc.new {|n| n*factor })
