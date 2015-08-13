@@ -171,4 +171,4 @@ Some of you space nerds might have noticed the "strange rock" the Little Prince 
 [Rosetta slingshot](https://youtu.be/ktrtvCvZb28 "Rosetta slingshot")
 
 I believe programming just like space enables us to dream big and transform our dreams in reality. From a fish tank to the ocean the question remains of how we can best slingshot each other in our eternal quest for knowledge that is life.
-![See you on the other side](/images/imagesnap_stef_ascii.png)
+![See you on the other side](images/imagesnap_stef_ascii.png)
