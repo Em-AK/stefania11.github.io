@@ -1,12 +1,18 @@
 ---
-layout: post-hover
+layout: "post-hover"
 title: How to program the cosmos
-description: "one api at a time (first blog from my coding adventures at Flatiron School)"
+description: one api at a time (first blog from my coding adventures at Flatiron School)
 category: articles
-tags: [cosmos, api, cli, flatironschool]
-image:
-  feature: "seahorse_nebula.jpg"
+tags: 
+  - cosmos
+  - api
+  - cli
+  - flatironschool
+image: 
+  feature: seahorse_nebula.jpg
+published: true
 ---
+
 
 
 ## How to program the cosmos..
@@ -36,6 +42,7 @@ What beter motivation than dreaming about space for challenging our limits of un
 A lot of my colleagues and our instructors have compared our learning curve to c a mountain climbing experience. For me it feels like going into space because I am learning how to get more and more perspective on things and climb the abstraction ladder. 
 ![Abstraction gif]({{site.baseurl}}/https://s-media-cache-ak0.pinimg.com/originals/8b/ae/92/8bae929b580082f4c6a3b15d3b0dfeed.gif)
 
+
 As a first "lightstone" in this journey to infinity and beyond I would like to invite you to Cosmos, the Ruby program I crafted together with my colleague [Drew](https://twitter.com/drewfromspace).  
 
 As we both love space we decided to play with the Nasa Api for Apod (Nasa picture of the day). Our constraint was to make everything run in the command line and we had two days to do it (with some mediation workshop and lectures along the way).
@@ -58,6 +65,14 @@ http://www.maclife.com/article/columns/terminal_101_making_your_mac_talk_%E2%80%
 search images by date
 make a gif in the terminal
 take pictures from the terminal https://github.com/rharder/imagesnap
+      def self.take_pictures
+          file='lib/assests/images/#{Time.now.to_i}.jpg'
+          NUMBER_OF_PICTURES.times do
+            system "imagesnap -q -w 1 #{file}"
+            new_image = AsciiArtHelper.generate_ascii(src: "#{file}")
+            IMAGES << new_image
+          end
+        end
 build an array quickly with a large list of words and pick a random value
 run things in the backend 
 rspec mock open-uri?
