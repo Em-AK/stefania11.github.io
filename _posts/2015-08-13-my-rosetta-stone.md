@@ -16,7 +16,7 @@ image:
 In our first day at [FlatironSchool](http://flatironschool.com) we were presented with this quote from Antoine de Saint-Exupery. The metaphor resonanted with me deeply as it crystalizes the way I approach every new project, challenge, learning and sharing opportunity.
 
 This quote also made me think of Goldfish growth versus tank size. The growth of the fish is conditioned by the size of his tank size because of increasing ammonia levels.
-![Goldfish in a bowl](fish.jpg)
+![Goldfish in a bowl](images/fish.jpg)
 (ALERT: MYTH BUSTED) Goldfish don't grow only as large as their environment because their grow is determined by their genetic heritage however the size of their tank conditiones their growth indirectly due to the water quality. In other words the fish tanks have a [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)#Limited_environments) challenge just like the city of New-York and many of the programming languages:)
 
 I take three major learnings from this nature instantiation of wisdom:
@@ -26,17 +26,17 @@ I take three major learnings from this nature instantiation of wisdom:
 
 ### From fishtanks to spaceships :rocket:
 So Goldfish are cool (and they never stop growing) but let's go back to Antoine de Saint Exubery who wrote a book that touched me as a child (and continues to do so today).
-![Little Prince on Comet 67P/Churyumov–Gerasimenko](Little_prince.png)
+![Little Prince on Comet 67P/Churyumov–Gerasimenko](images/Little_prince.png)
 
 What beter motivation than dreaming about space for challenging our limits of understanding and curiosity?
 
 A lot of my colleagues and our instructors have compared our learning curve to c a mountain climbing experience. For me it feels like going into space because I am learning how to get more and more perspective on things and climb the abstraction ladder.
-![Abstraction gif](abstraction.gif)
+![Abstraction gif](images/abstraction.gif)
 
 As a first "lightstone" in this journey to infinity and beyond I would like to invite you to Cosmos, the Ruby program I crafted together with my colleague [Drew](https://twitter.com/drewfromspace).  
 
 As we both love space we decided to play with the Nasa Api for Apod (Nasa picture of the day). Our constraint was to make everything run in the command line and we had two days to do it (with some mediation workshop and lectures along the way).
-![Nasa picture of the day last year for my birthday](birthday_apod.jpg)
+![Nasa picture of the day last year for my birthday](images/birthday_apod.jpg)
 
 ####This was our process:
 
@@ -46,9 +46,8 @@ As we both love space we decided to play with the Nasa Api for Apod (Nasa pictur
 
 ###What we learned:
 
-1. Run bash commands from ruby.We used two options System method and Backticks(`). There are actually six commands that enable you to run Shell commands in Ruby. More on that [here](http://tech.natemurray.com/2007/03/ruby-shell-commands.html)
+1. Run bash commands from ruby.We used two options System method and Backticks. There are actually six commands that enable you to run Shell commands in Ruby. More on that [here](http://tech.natemurray.com/2007/03/ruby-shell-commands.html)
 
-``
 ```ruby
 def self.open(thing)
   cmd = "open #{thing}"
@@ -59,6 +58,7 @@ end
 2. Store api keys secretly by creating a .gitignore file.
 
 3. Use meta-programming to set our own instance variables
+
 ```ruby
 class APOD
   def initialize(data)
@@ -105,6 +105,7 @@ def self.d
 ```
 
 7. Make a gif in the terminal
+
 ```ruby
 def self.loop_images(n = NUMBER_OF_LOOPS)
     n.times do
@@ -118,6 +119,7 @@ def self.loop_images(n = NUMBER_OF_LOOPS)
   end
 ```
 8. Take pictures from the terminal with [ImageSnap package] (https://github.com/rharder/imagesnap)
+
 ```ruby
 def self.take_pictures
     file = "lib/assets/images/#{Time.now.to_i}.jpg"
@@ -131,10 +133,13 @@ def self.take_pictures
     end
 ```
 9. Run commands in the backend
+
 ```ruby
 say "hello"&
 ```
+
 10. Rspec mock open-uri
+
 ```ruby
 it "should read the key file" do
     # File.should_receive(:read ).and_return("")
@@ -157,7 +162,7 @@ it "should read the key file" do
 - make a podcast with all our random generated terminal voice-over-ascii-picture.
 
 ###The slingshot of it all..
-![Comet 67P/Churyumov–Gerasimenko from Rosetta](comet.jpg)
+![Comet 67P/Churyumov–Gerasimenko from Rosetta](images/comet.jpg)
 
 Some of you space nerds might have noticed the "strange rock" the Little Prince was sitting on at the beginning of the post. It turns out it's a very special rock named Comet 67P/Churyumov–Gerasimenko and it took us 12 years to get there.. and we could only do that by using slingshot force.
 
@@ -166,4 +171,4 @@ Some of you space nerds might have noticed the "strange rock" the Little Prince 
 [Rosetta slingshot](https://youtu.be/ktrtvCvZb28 "Rosetta slingshot")
 
 I believe programming just like space enables us to dream big and transform our dreams in reality. From a fish tank to the ocean the question remains of how we can best slingshot each other in our eternal quest for knowledge that is life.
-![See you on the other side](imagesnap_stef_ascii.png)
+![See you on the other side](images/imagesnap_stef_ascii.png)
