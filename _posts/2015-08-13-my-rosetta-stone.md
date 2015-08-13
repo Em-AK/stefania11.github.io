@@ -60,6 +60,7 @@ end
 3. Use meta-programming to set our own instance variables
 
 ```ruby
+
 class APOD
   def initialize(data)
     data.each do |k, v|
@@ -73,12 +74,15 @@ class APOD
     end
   end
 end
+
 ```
 
 4. Call a private method with and argument and a proc
+
 ```ruby
 (Proc.new {|n| n*factor })
 ```
+
 5. Make our terminal talk to us
 
   ```ruby
@@ -87,7 +91,9 @@ end
     system(cmd)
   end
   ```
+  
 6. Search images by date
+
 
 ```ruby
 def self.d
@@ -118,6 +124,7 @@ def self.loop_images(n = NUMBER_OF_LOOPS)
     end
   end
 ```
+
 8. Take pictures from the terminal with [ImageSnap package] (https://github.com/rharder/imagesnap)
 
 ```ruby
@@ -132,6 +139,7 @@ def self.take_pictures
       ASCII_IMAGES << ascii_image
     end
 ```
+
 9. Run commands in the backend
 
 ```ruby
