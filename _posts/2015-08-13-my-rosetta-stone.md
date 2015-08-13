@@ -77,33 +77,35 @@ end
 
 4. Call a private method with and argument and a proc:
 
-
+```ruby
 (Proc.new {|n| n*factor })
 
+```
 
 5. Make our terminal talk to us
 
+```ruby
 
 def self.say(text, voice = VOICES.sample)
   cmd = "say -v #{voice} \"#{text}\""
   system(cmd)
 end
+```
   
 6. Search images by date
 
+```ruby
 def self.d
     puts 'For which day would you like to see the APOD?'
 
     date = prompt('Enter a date in the format YYYY-MM-DD')
     validate(date)
-
-    m
     Cosmos.new(date: date)
-  rescue
+    rescue
     date_error
     d
   end
-
+```
 
 7. Make a gif in the terminal
 
