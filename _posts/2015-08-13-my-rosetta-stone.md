@@ -45,7 +45,7 @@ As we both love space we decided to play with the Nasa Api for Apod (Nasa pictur
 3. Build the CLI program
 
 ###What we learned:
-
+All our code is available [here] (https://github.com/stefania11/cosmos-ascii)
 1. Run bash commands from ruby.We used two options System method and Backticks. There are actually six commands that enable you to run Shell commands in Ruby. More on that [here](http://tech.natemurray.com/2007/03/ruby-shell-commands.html)
 2. Store api keys secretly by creating a .gitignore file.
 3. Use meta-programming to set our own instance variables
