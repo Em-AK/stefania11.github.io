@@ -1,6 +1,6 @@
 ---
 layout: post-hover
-permalink: /resume/index.html
+permalink: /resume2/index.html
 title: Resume
 tags: [stefaniadruga, resume]
 image:
@@ -101,12 +101,12 @@ research project in France.
 | German      | Beginner |
 
 ---
-
+<!--
 ## Professional Skills
 
 
 // have to complete
-
+ -->
 ---
 
 ##  Hobbies
