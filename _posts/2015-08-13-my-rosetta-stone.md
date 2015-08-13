@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## How to program the cosmos..
