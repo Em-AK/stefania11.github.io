@@ -59,7 +59,7 @@ end
 
 3. Use meta-programming to set our own instance variables
 
-
+```ruby
 class APOD
   def initialize(data)
     data.each do |k, v|
@@ -73,7 +73,7 @@ class APOD
     end
   end
 end
-
+```
 
 4. Call a private method with and argument and a proc:
 
