@@ -48,18 +48,16 @@ As we both love space we decided to play with the Nasa Api for Apod (Nasa pictur
 
 1. Run bash commands from ruby.We used two options System method and Backticks. There are actually six commands that enable you to run Shell commands in Ruby. More on that [here](http://tech.natemurray.com/2007/03/ruby-shell-commands.html)
 
-```ruby
+
 def self.open(thing)
   cmd = "open #{thing}"
   system(cmd)
 end
-```
 
 2. Store api keys secretly by creating a .gitignore file.
 
 3. Use meta-programming to set our own instance variables
 
-```ruby
 
 class APOD
   def initialize(data)
@@ -75,27 +73,23 @@ class APOD
   end
 end
 
-```
 
-4. Call a private method with and argument and a proc
+4. Call a private method with and argument and a proc:
 
-```ruby
+
 (Proc.new {|n| n*factor })
-```
+
 
 5. Make our terminal talk to us
 
-  ```ruby
-  def self.say(text, voice = VOICES.sample)
-    cmd = "say -v #{voice} \"#{text}\""
-    system(cmd)
-  end
-  ```
+
+def self.say(text, voice = VOICES.sample)
+  cmd = "say -v #{voice} \"#{text}\""
+  system(cmd)
+end
   
 6. Search images by date
 
-
-```ruby
 def self.d
     puts 'For which day would you like to see the APOD?'
 
@@ -108,11 +102,11 @@ def self.d
     date_error
     d
   end
-```
+
 
 7. Make a gif in the terminal
 
-```ruby
+
 def self.loop_images(n = NUMBER_OF_LOOPS)
     n.times do
       ASCII_IMAGES.each do |i|
@@ -123,11 +117,11 @@ def self.loop_images(n = NUMBER_OF_LOOPS)
       end
     end
   end
-```
+
 
 8. Take pictures from the terminal with [ImageSnap package] (https://github.com/rharder/imagesnap)
 
-```ruby
+
 def self.take_pictures
     file = "lib/assets/images/#{Time.now.to_i}.jpg"
 
@@ -138,17 +132,17 @@ def self.take_pictures
 
       ASCII_IMAGES << ascii_image
     end
-```
+
 
 9. Run commands in the backend
 
-```ruby
+
 say "hello"&
-```
+
 
 10. Rspec mock open-uri
 
-```ruby
+
 it "should read the key file" do
     # File.should_receive(:read ).and_return("")
     url = 'https://api.nasa.gov/planetary/apod?concept_tags=True&api_key=my_key&format=JSON'
@@ -157,7 +151,7 @@ it "should read the key file" do
     instance = ApodGet.new
     expect(instance.data).to eq("my data")
   end
-```
+
 
 
 ###What we want to do next
