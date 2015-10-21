@@ -1,7 +1,7 @@
 ---
 layout: post-hover
 title: Poetical computation and Jekyll
-description: " "
+description: 
 category: articles
 tags: [intro, beginner, jekyll, tutorial]
 image:

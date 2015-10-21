@@ -1,7 +1,7 @@
 ---
 layout: post-hover
 title: Programing collective intelligence..
-description: "..How to build the simplest recommendation engine in ruby
+description: "..How to build the simplest recommendation engine in ruby"
 category: articles
 tags: [cosmos, api, cli, flatironschool]
 image:
