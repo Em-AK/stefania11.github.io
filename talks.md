@@ -11,7 +11,7 @@ image:
 
 ---
 
-### A Selection of  talks
+### A Selection of talks
 
 ### A journey of making and how we ended up building a lab in a shipping container
 Tedx Brighton 2014

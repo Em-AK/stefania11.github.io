@@ -1,4 +1,4 @@
-title:            
+title:
 tagline:          Sketches of a learning arhitect
 description:      Personal website of Stefania Druga where I talk about learning experiences, projects and code
 canonical: https://stefania11.github.io
@@ -34,7 +34,7 @@ links:
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Germany/Berlin
+timezone:    USA/NYC
 future:      true
 highlighter: pygments
 markdown:    kramdown
