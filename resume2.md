@@ -12,30 +12,30 @@ image:
 **Web Development Immersive Student** (July 2015 - present)
 Applications build:
 
-* __Makehub__ - Collaborative documentation platform  for hardware projects built on top of Github.
-* * Responsive Express app  that transforms project pictures into JSON objects that can be forked via Github gists.  
-⋅⋅* Synthesized Angular stack and Bootstrap for the front-end
-* * Allow users to login  with Github profile and created customized Google search
+\* __Makehub__ - Collaborative documentation platform  for hardware projects built on top of Github.
+* Responsive Express app  that transforms project pictures into JSON objects that can be forked via Github gists.  
+* Synthesized Angular stack and Bootstrap for the front-end
+* Allow users to login  with Github profile and created customized Google search
 www.makehub.eu
 
-* __Soundfriend__ - Music sharing platform for an existing international community with 300 active content creators.
-* * Responsive Rails Application with customized template which enables user to share songs/videos from multiple sources (SoundCloud, Spotify, YouTube) and create playlists for specific genres.
-* * Conducted user research on existing community to prioritize features
-* * Analyzed existing music streaming platforms to identify current UX practices
-* * Connected to the SoundCloud API to create shareable and editable music playlists
+\* __Soundfriend__ - Music sharing platform for an existing international community with 300 active content creators.
+*  Responsive Rails Application with customized template which enables user to share songs/videos from multiple sources (SoundCloud, Spotify, YouTube) and create playlists for specific genres.
+*  Conducted user research on existing community to prioritize features
+*  Analyzed existing music streaming platforms to identify current UX practices
+*  Connected to the SoundCloud API to create shareable and editable music playlists
 http://soundriend.herokuapp.com/
 
-* __ProductTracker__ - Mapping and semantically analysing product reviews
-* * Analyse recent Amazon product reviews for location, sentiment with the Sentimental gem  
-* * Generated historical map of product reviews with SVG and Javascript
-* * Optimized response time by persisting and updating reviews in the database with cron
-* * Created a responsive experience for mobile using Bootstrap and Sass
+\* __ProductTracker__ - Mapping and semantically analysing product reviews
+*  Analyse recent Amazon product reviews for location, sentiment with the Sentimental gem  
+*  Generated historical map of product reviews with SVG and Javascript
+*  Optimized response time by persisting and updating reviews in the database with cron
+*  Created a responsive experience for mobile using Bootstrap and Sass
 http://flatiron-product-tracker.herokuapp.com/
 
-CosmosAscii - A command line implementation of Nasa Picture of the day
-* * Wrote wrapper for OSX Voice API to read image descriptions in a background task
-* * Renders the Nasa Picture of the Day in ASCII in the command line
-* * Merges selfie and daily image into a text based animation
+\* __CosmosAscii__ - A command line implementation of Nasa Picture of the day
+*  Wrote wrapper for OSX Voice API to read image descriptions in a background task
+*  Renders the Nasa Picture of the Day in ASCII in the command line
+*  Merges selfie and daily image into a text based animation
 
 **HacKIDemia Founder** (2012-present)
 Three years ago I co-founded HacKIDemia, a global organization where
@@ -126,7 +126,6 @@ research project in France.
 | Javascript      | +++ |
 | SQL       | ++++ |
 | C++     | ++ |
-|       | Beginner |
 
 ---
 
