@@ -6,7 +6,7 @@ tags: [stefaniadruga, resume]
 image:
   feature:  fractals_banner_bw.jpg
 ---
-## Portfolio
+## Experience
 ***
 
 **Web Development Immersive Student** (July 2015 - present)
@@ -67,7 +67,7 @@ worked with 80 students from 36 countries and currated the education
 track. One of the teams I coached directly is still running as an ed-tech
 company providing personalized learning paths.[eddefy.com](eddefy.com)
 
-**SQE Associate**)(2010-2011)
+**SQE Associate**(2010-2011)
 Helped defend Google's index against webspamn and colected data
 used for search algorithm design. Worked with the training team for
 improving the new comer training by making instructional videos
