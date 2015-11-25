@@ -20,6 +20,7 @@ This quote also made me think of Goldfish growth versus tank size. The growth of
 (ALERT: MYTH BUSTED) Goldfish don't grow only as large as their environment because their grow is determined by their genetic heritage however the size of their tank conditiones their growth indirectly due to the water quality. In other words the fish tanks have a [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)#Limited_environments) challenge just like the city of New-York and many of the programming languages:)
 
 I take three major learnings from this nature instantiation of wisdom:
+
 1.  beeing in an appropriate environment and changing the environment as we are evolving is key to our growth and development.
 2. jumping to a larger bowl (as challenging as it may be at times) allows us to deal with our missconceptions waste and to constantly observe and assimilate new patterns.
 3. people are very good at justifying their shortcommings (no Goldfish don't have a 3 seconds memory so you should really think twice before opting for that kitchen bowl).
@@ -40,12 +41,13 @@ As we both love space we decided to play with the Nasa Api for Apod (Nasa pictur
 
 ####This was our process:
 
-1. Get the data from [Nasa Apod Api] (https://api.nasa.gov/api.html#apod)
-2. Convert the image in ASCI [Ascii art gem] (https://rubygems.org/gems/asciiart)
+1. Get the data from [Nasa Apod Api](https://api.nasa.gov/api.html#apod)
+2. Convert the image in ASCI [Ascii art gem](https://rubygems.org/gems/asciiart)
 3. Build the CLI program
 
 ###What we learned:
-All our code is available [here] (https://github.com/stefania11/cosmos-ascii)
+All our code is available [here](https://github.com/stefania11/cosmos-ascii)
+
 1. Run bash commands from ruby.We used two options System method and Backticks. There are actually six commands that enable you to run Shell commands in Ruby. More on that [here](http://tech.natemurray.com/2007/03/ruby-shell-commands.html)
 2. Store api keys secretly by creating a .gitignore file.
 3. Use meta-programming to set our own instance variables
@@ -53,7 +55,7 @@ All our code is available [here] (https://github.com/stefania11/cosmos-ascii)
 5. Make our terminal talk to us
 6. Search images by date
 7. Make a gif in the terminal
-8. Take pictures from the terminal with [ImageSnap package] (https://github.com/rharder/imagesnap)
+8. Take pictures from the terminal with [ImageSnap package](https://github.com/rharder/imagesnap)
 9. Run commands in the backend
 10. Rspec mock open-uri
 
