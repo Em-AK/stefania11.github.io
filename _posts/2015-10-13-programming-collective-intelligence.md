@@ -26,10 +26,14 @@ There are a good number of different algorithms used in memory-based collaborati
 ##How to build the most simple recommender in Ruby
 
 Most of these collaborative-filtering algorithms use a rating range (1..x) but in order to build the most simple recommender engine in ruby only with likes and dislikes I turned to Recommendable gem.
+
 ###How does it work?
+
 We find the number of stories that both Parent 1 and Parent 2 like, add it to the number of stories that both Parent 1 and Parent 2 dislike, and then divide that by the total number of different stories that Parent 1 and Parent 2 have rated.
 
-$ ((@p1.likes + @p2.likes) + (@p1.dislikes + @p2.dislikes))/ (@p1.stories_rated + @p2.stories_rated)
+```
+$ ((@p1.likes + @p2.likes) + (@p1.dislikes + @p2.dislikes)) / (@p1.stories_rated + @p2.stories_rated)
+```
 
 ##The Jaccard index
 
@@ -38,7 +42,7 @@ In our case all we do is subtract the number of disagreements from the number of
 
 ###Pseudo-implementation in Ruby code:
 <script src="https://gist.github.com/stefania11/b4d44c1078361277a1b7.js"></script>
-source: http://davidcel.is/posts/collaborative-filtering-with-likes-and-dislikes/
+[Source](http://davidcel.is/posts/collaborative-filtering-with-likes-and-dislikes/)
 
 ##Community based learning
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/albertovo5/4113467727/in/photolist-7guADn-fQi9kb-95aKAn-j5iVxT-jj4mNb-i7Sk4z-feNTmi-7ndqJm-eJKuJm-aQgwca-pSnSW1-id4NKW-bW37Jb-h77Syf-iPpASY-79pRfj-jM9vFh-7HHDbg-4x3oAi-a8pWSS-g6YGtt-8jqFRH-exzvcz-nPFdZ5-fqNC7N-eeo47-n77LrV-haLQDC-hqHA2j-fETGyc-mN1iRR-8EMnHr-he54GG-4jNZ8d-mQZzKD-eUW7bd-fXsfDv-atGbxj-e5cZ8s-FA2hH-jA6xwo-9viFEH-9JMu7Z-q5rndx-jBz1MA-sqn5Ws-481nio-hxSHX8-7pJDFt-xZ2zch" title="Gimme a V"><img src="https://farm3.staticflickr.com/2639/4113467727_95a6b15d56_b.jpg" width="1024" height="683" alt="Gimme a V"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
